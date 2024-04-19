@@ -1,5 +1,14 @@
 @tailwind base;
 @tailwind components;
+
+@layer components {
+  .test { @apply m-0 max-w-[30ch] text-sm opacity-50 }
+  .test2 {
+    color: red;
+    background-color: blueviolet;
+  }
+}
+
 @tailwind utilities;
 
 :root {

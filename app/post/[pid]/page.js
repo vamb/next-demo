@@ -1,5 +1,6 @@
 'use client'
 
+// /post/abcdef
 import { usePathname } from "next/navigation";
 
 const Post = ({ params }) => {
@@ -9,7 +10,7 @@ const Post = ({ params }) => {
 
   return (
     <div>
-      <p>{`post: ${params?.pid}`}</p>
+      <p>{`pid: ${params?.pid}`}</p>
     </div>
   )
 }

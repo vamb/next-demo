@@ -1,4 +1,4 @@
-export default function ({children}) {
+export default function MarketingLayout({children}) {
   return (
     <div className={"flex flex-col gap-1 min-h-screen"}>
       <div>marketing layout</div>

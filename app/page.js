@@ -20,6 +20,7 @@ export default function Home() {
         <Link href="/goods">/goods</Link>
         <Link href="/post/a/b/c">/post/a/b/c</Link>
         <Link href="/post/abcdef">/post/abcdef</Link>
+        <Link href="/error">/error</Link>
       </div>
     </Suspense>
   );

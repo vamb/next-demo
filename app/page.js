@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <Suspense fallback={<Loading title={'app'} />}>
-      <div className={'flex flex-col gap-5 p-5'}>
+      <div className={'flex flex-col gap-3 p-5'}>
         <Link href="/hello">/hello</Link>
         <Link href="/about">/about</Link>
         <Link href="/account">/account</Link>
@@ -21,6 +21,7 @@ export default function Home() {
         <Link href="/post/a/b/c">/post/a/b/c</Link>
         <Link href="/post/abcdef">/post/abcdef</Link>
         <Link href="/error">/error</Link>
+        <Link href="/photo/1">/photo/1</Link>
       </div>
     </Suspense>
   );

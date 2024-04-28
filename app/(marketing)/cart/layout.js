@@ -9,7 +9,7 @@ export default function CartLayout({children}) {
   return (
     <Suspense fallback={<Loading title={'cart'} />}>
       <div className={'flex flex-col gap-1 min-h-screen'}>
-        <div className={'cursor-pointer'} onClick={()=>router.back()}>{'<<'}cart layout, go back</div>
+        <div className={'cursor-pointer'} onClick={()=>router.replace('/')}>{'<<'}cart layout, go back</div>
         <div className={'flex-grow flex'}>{children}</div>
       </div>
     </Suspense>

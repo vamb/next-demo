@@ -10,7 +10,7 @@ export default function TelLayout({ children }) {
   return (
     <div className={'flex flex-col gap-2 p-5'}>
       <div className={'flex flex-row gap-5 border-1'}>
-        <div className={'nav-unit'} onClick={()=>router.back()}>返回</div>
+        <div className={'nav-unit'} onClick={()=>router.replace('/')}>返回</div>
         <div className={'nav-unit'} onClick={()=>router.push('/telGroup/template1')}>Template1 Page</div>
         <div className={'nav-unit'} onClick={()=>router.push('/telGroup/template2')}>Template2 Page</div>
       </div>

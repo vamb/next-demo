@@ -10,7 +10,7 @@ export default function PhotoPageLayout({children}) {
   return (
     <Suspense callback={<Loading title={'Photo'} />}>
       <div>
-        <div onClick={()=>router.back()} className={'cursor-pointer'}>返回</div>
+        <div onClick={()=>router.replace('/')} className={'cursor-pointer'}>返回</div>
         <div>{children}</div>
       </div>
     </Suspense>

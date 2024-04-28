@@ -9,7 +9,7 @@ const HelloLayout = ({children, test1, test2}) => {
   return (
     <Suspense fallback={<Loading title={'hello'} />}>
       <div className={'flex flex-col gap-1 min-h-screen'}>
-        <div className={'bg-green-400 cursor-pointer'} onClick={()=>router.back()}>go Back</div>
+        <div className={'bg-green-400 cursor-pointer'} onClick={()=>router.replace('/')}>go Back</div>
         <Suspense fallback={<Loading title={'hello test1'} />}>
           <div>{test1}</div>
         </Suspense>

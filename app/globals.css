@@ -16,8 +16,20 @@
     border-radius: 3px;
     cursor: pointer;
   }
-  .self-btn {
-    @apply mt-auto bg-violet-800 bg-opacity-50 hover:bg-opacity-75 transition-colors duration-200 rounded-xl font-semibold py-2 px-4 inline-flex cursor-pointer
+  .purple-btn {
+    @apply
+    mt-auto bg-violet-800 bg-opacity-50 hover:bg-opacity-75 transition-colors
+    duration-200 rounded-xl font-semibold py-2 px-4 inline-flex cursor-pointer
+  }
+  .orange-btn {
+    @apply
+    mt-auto bg-amber-900 bg-opacity-50 hover:bg-opacity-75 transition-colors
+    duration-200 rounded-xl font-semibold py-2 px-4 inline-flex cursor-pointer
+  }
+  .pink-btn {
+    @apply
+    mt-auto bg-rose-900 bg-opacity-50 hover:bg-opacity-75 transition-colors
+    duration-200 rounded-xl font-semibold py-2 px-4 inline-flex cursor-pointer
   }
 }
 

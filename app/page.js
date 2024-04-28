@@ -42,6 +42,7 @@ export default function Home() {
           <Link href="/post/abcdef">/post/abcdef</Link>
           <Link href="/error">/error</Link>
           <Link href="/photo/1">/photo/1</Link>
+          <Link href="/telGroup/template1">layout 和 template 的区别</Link>
         </div>
       </Suspense>
       <div className={'flex flex-col gap-3 p-5'}>

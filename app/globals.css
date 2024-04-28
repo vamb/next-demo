@@ -7,6 +7,15 @@
     color: red;
     background-color: blueviolet;
   }
+  .nav-unit {
+    box-sizing: border-box;
+    padding: 2px 3px;
+    border: 1px solid gray;
+    background-color: #8A2BE280;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
 }
 
 @tailwind utilities;

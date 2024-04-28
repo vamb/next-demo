@@ -34,7 +34,7 @@ export default function Home() {
       <Suspense fallback={<Loading title={'app'} />}>
         <div className={'flex flex-col gap-3 p-5'}>
           <Link href="/hello">/hello</Link>
-          <Link href="/about">/about</Link>
+          <Link href="/about?test=aaa&&test2=bbb">/about?test=aaa&&test2=bbb</Link>
           <Link href="/account">/account</Link>
           <Link href="/cart">/cart</Link>
           <Link href="/goods">/goods</Link>

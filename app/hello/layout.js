@@ -1,7 +1,7 @@
 'use client'
 import { useRouter } from 'next/navigation'
 import { Suspense } from 'react'
-import Loading from '@/loading'
+import Loading from '@/app/loading'
 
 const HelloLayout = ({children, test1, test2}) => {
   const router = useRouter()

@@ -1,7 +1,7 @@
 "use client"
 import { useRouter } from 'next/navigation'
 import { Suspense } from 'react'
-import Loading from '@/loading'
+import Loading from '@/app/loading'
 
 export default function PidLayout({children}) {
   const router = useRouter()
